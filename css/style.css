@@ -16,6 +16,7 @@ img {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #FFF1E6;
 }
 
 main {
@@ -43,6 +44,11 @@ header {
     font-size: 70px;
     font-weight: bold;
     cursor: url(../imgs/sleepy_face_small.png), pointer;
+    text-align: center;
+}
+
+.joke p:not(:first-child){
+    display: none;
 }
 
 nav ul {
@@ -55,7 +61,7 @@ nav ul {
 
 footer {
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 350px 350px;
     justify-content: center;
     grid-gap: 50px;
 }
