@@ -39,6 +39,12 @@ header {
     background-size: 100%;
 }
 
+.joke {
+    font-size: 70px;
+    font-weight: bold;
+    cursor: url(../imgs/sleepy_face_small.png), pointer;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
